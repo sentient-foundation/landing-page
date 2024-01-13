@@ -119,12 +119,12 @@ body {
 
 .logo {
   height: 48px;
-  margin-top: -10px;
+  margin-top: -16px;
   width: auto;
 
   @media screen and (width >= 1024px) {
     height: 67px;
-    margin-top: -16px;
+    margin-top: -24px;
   }
 
   @media (prefers-color-scheme: dark) {
