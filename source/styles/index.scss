@@ -11,17 +11,20 @@ $text-color-dark: #fff;
 
 @font-face {
   font-family: Geist-Regular;
-  src: url("../fonts/Geist-Regular.woff2") format("woff2");
+  src: url("fonts/Geist-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Sentient-LightItalic;
-  src: url("../fonts/Sentient-LightItalic.woff2") format("woff2");
+  src: url("fonts/Sentient-LightItalic.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Sentient-Regular;
-  src: url("../fonts/Sentient-Regular.woff2") format("woff2");
+  src: url("fonts/Sentient-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 *,
@@ -41,7 +44,7 @@ html {
 }
 
 body {
-  background: $body-color url("../images/light.png") no-repeat center / cover;
+  background: $body-color url("images/light.png") no-repeat center / cover;
   color: $text-color;
   height: 100%;
   margin: 0;
@@ -49,12 +52,12 @@ body {
 
   @media (prefers-color-scheme: dark) {
     background-color: $body-color-dark;
-    background-image: url("../images/dark.png");
+    background-image: url("images/dark.png");
     color: $text-color-dark;
   }
 }
 
-section {
+.section {
   align-items: center;
   display: flex;
   height: 100%;
@@ -62,14 +65,14 @@ section {
   padding: 16px;
 }
 
-main {
+.main {
   align-items: center;
   background-color: rgba($section-color, 0.8);
   border-radius: $border-radius;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 16px;
+  padding: 16px 24px;
 
   &::before,
   &::after {
@@ -95,7 +98,7 @@ main {
   }
 }
 
-article {
+.article {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -118,7 +121,7 @@ article {
   font: 32px/40px Sentient-Regular, serif;
   text-align: center;
   position: relative;
-  top: -16px;
+  top: -6px;
 
   @media screen and (width >= 1024px) {
     font-size: 48px;
@@ -154,7 +157,7 @@ article {
   }
 
   &::before {
-    background: url("../images/mail.svg") no-repeat center / contain;
+    background: url("images/mail.svg") no-repeat center / contain;
     content: " ";
     display: block;
     height: 20px;

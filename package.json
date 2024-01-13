@@ -2,8 +2,8 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "sass:write": "sass --no-source-map source/styles/index.scss public/styles/index.css --style compressed",
-    "sass:watch": "sass --no-source-map --watch source/styles/index.scss:public/styles/index.css --style compressed",
+    "sass:write": "sass --no-source-map source/styles/index.scss public/styles.css --style compressed",
+    "sass:watch": "sass --no-source-map --watch source/styles/index.scss:public/styles.css --style compressed",
     "stylelint:write": "stylelint --fix source/styles/index.scss"
   },
   "devDependencies": {
