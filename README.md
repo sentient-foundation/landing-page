@@ -16,10 +16,10 @@ Build project:
   npm run build
 ```
 
-## Design
+## Resource files
 
-Prototype development: [Figma](https://www.figma.com/file/4BEcSM7VHyoEt4CUUmzmyQ/Sentient?type=design&node-id=0%3A1&mode=design&t=1rmnqkm6BD8KHLFi-1)
+Design: [Figma](https://www.figma.com/file/4BEcSM7VHyoEt4CUUmzmyQ/Sentient?type=design&node-id=0%3A1&mode=design&t=1rmnqkm6BD8KHLFi-1).
 
 ## Author
 
-Prototype development: [@kazakevich-a](https://www.github.com/kazakevich-a)
+Prototype development: [@kazakevich-a](https://www.github.com/kazakevich-a).

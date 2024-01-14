@@ -143,7 +143,7 @@ body {
     line-height: 56px;
   }
 
-  &_accent {
+  span {
     font-family: $font-sentient-light-italic, serif;
     font-style: italic;
   }
@@ -190,7 +190,7 @@ body {
     padding: 24px 64px;
   }
 
-  &_link {
+  span {
     border-bottom: 1px solid $link-color;
   }
 }
