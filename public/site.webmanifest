@@ -3,16 +3,16 @@
   "name": "Sentient",
   "icons": [
     {
-      "src": "favicon-192.png",
+      "src": "favicons/favicon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "favicon-512.png",
+      "src": "favicons/favicon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "display": "fullscreen",
-  "start_url": "http://kazakevich.info/sentient"
+  "start_url": "http://sentient.foundation"
 }
