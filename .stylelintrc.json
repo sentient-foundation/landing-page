@@ -5,7 +5,6 @@
   "rules": {
     "at-rule-no-unknown": null,
     "order/properties-alphabetical-order": true,
-    "selector-class-pattern": null,
-    "unit-allowed-list": ["px", "%", "s", "deg"]
+    "selector-class-pattern": null
   }
 }
