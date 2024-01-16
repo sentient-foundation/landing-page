@@ -18,7 +18,7 @@ Build project:
 
 ## Resource files
 
-Link to design file in [figma](https://www.figma.com/file/4BEcSM7VHyoEt4CUUmzmyQ/Sentient?type=design&node-id=0%3A1&mode=design&t=1rmnqkm6BD8KHLFi-1).
+Link to design file in [Figma](https://www.figma.com/file/4BEcSM7VHyoEt4CUUmzmyQ/Sentient?type=design&node-id=0%3A1&mode=design&t=1rmnqkm6BD8KHLFi-1).
 
 Light theme:
 
