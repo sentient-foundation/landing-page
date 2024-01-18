@@ -8,8 +8,6 @@
 
 %main {
   align-items: center;
-  background-color: rgba($section-color, 0.8);
-  border-radius: $border-radius;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -19,10 +17,6 @@
     gap: 52px;
     padding: 28px;
     width: 928px;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    background-color: rgba($section-color-dark, 0.8);
   }
 }
 
