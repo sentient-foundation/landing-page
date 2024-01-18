@@ -1,0 +1,21 @@
+.error-section {
+  @extend %section;
+}
+
+.error-main {
+  @extend %main;
+}
+
+.error-article {
+  @extend %article;
+}
+
+.error-here {
+  @extend %button-link;
+
+  padding: 12px;
+
+  @media screen and (width >= 1024px) {
+    padding: 24px;
+  }
+}
