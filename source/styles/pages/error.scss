@@ -10,6 +10,10 @@
   @extend %article;
 }
 
+.error-h1 {
+  text-align: center;
+}
+
 .error-here {
   @extend %button-link;
 
