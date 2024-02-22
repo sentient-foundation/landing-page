@@ -88,3 +88,34 @@
     }
   }
 }
+
+.home-powered {
+  align-items: center;
+  display: flex;
+  font: 14px $font-geist-regular, sans-serif;
+  gap: 8px;
+  letter-spacing: 0.5px;
+
+  @media screen and (width >= 1024px) {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+
+.home-icons {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+.home-polygon {
+  @extend %footer-ico;
+
+  height: 20px;
+}
+
+.home-eigen-layer {
+  @extend %footer-ico;
+
+  height: 35px;
+}
