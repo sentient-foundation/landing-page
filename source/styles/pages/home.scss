@@ -52,8 +52,18 @@
     margin-top: -24px;
   }
 
-  @media (prefers-color-scheme: dark) {
-    filter: brightness(0) invert(1);
+  &.light {
+    display: block;
+    @media (prefers-color-scheme: dark) {
+      display: none;
+    }
+  }
+
+  &.dark {
+    display: none;
+    @media (prefers-color-scheme: dark) {
+      display: block;
+    }
   }
 }
 
